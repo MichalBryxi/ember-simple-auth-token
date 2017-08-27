@@ -149,7 +149,7 @@ export default Base.extend({
       [this.identificationField]: credentials.identification
     };
 
-    return authentication;
+    return {user: authentication};
   },
 
   /**
